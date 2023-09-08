@@ -1,0 +1,176 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+
+
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
+.greetingtit{
+  font-family: "cassette";
+  font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+  font-family:"cassette";
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 50px;
+
+  
+}
+
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .greeting-text {
+      font-size: 50px;
+    }
+    .greeting-text-p {
+      font-size: 30px;
+      font-family:"cassette";
+      font-size: 20px;
+      text-align: center;
+      margin-left: 50px;
+      line-height: 20px;
+      margin-top: 100px;
+  
+    }
+}
+
+
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  .greeting-text-p {
+    font-size: 30px;
+    text-align: center;
+    font-family:"cassette";
+    margin-top: 0px;
+    margin-left: 0px;
+    
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greetingtit {
+    font-family: "cassette";
+    font-size: 30px;
+    line-height: 20px;
+    margin-right: 20px;
+    line-height: normal;
+    text-align: center;}
+}
+
+
+
+/* #feature1 {
+  background-image: url("../../assests/images/ai.gif");
+  background-position: 50% 94px;
+  width: 120%;
+  margin-left: -110px;
+  display: block;
+  position: relative;
+  overflow: visible;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+  height:500px;
+} */
+
+
+/* @media screen and (max-width: 600px) {
+  #feature1 {
+    background-image: url("../../assests/images/ai.gif");
+    width: auto;
+    height: auto;
+    background-attachment: scroll;
+  }
+} */

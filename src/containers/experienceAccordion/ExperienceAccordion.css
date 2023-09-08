@@ -1,0 +1,51 @@
+.experience-accord {
+  margin: 0 auto;
+  width: 80%;
+  background: #1569a8;
+  background-color: aqua;
+    
+}
+
+.experience-accord .b4 {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: #0c1b2d;
+    color: #fefefe;
+}
+
+.experience-accord .ba {
+    flex-shrink: 0;
+    color: white;
+}
+
+.experience-accord .bu {
+    max-height: 100%;
+    background-color: #0c1b2d;
+    color: beige;
+}
+
+.experience-card-duration {
+    font-family: "Google Sans Regular";
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: right;
+    color: #868e96;
+}
+
+.accord-panel {
+    font-family: 'Google Sans Regular';
+}
+
+@media (max-width: 768px) {
+    .experience-accord{
+        margin: 20px;
+    }
+}
+
+
+.experience-accord .li {
+
+    background: #1569a8;
+}

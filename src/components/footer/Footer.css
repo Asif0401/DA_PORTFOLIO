@@ -1,0 +1,22 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
+.footer-text {
+  text-align: center;
+  color: #e4405f;
+  font-family: "BeautyDemo";
+  font-size: 30px;
+}
+
+.footer-div {
+  margin-top: 4rem;
+}

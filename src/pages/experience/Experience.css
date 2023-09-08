@@ -1,0 +1,305 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
+#exp_block {
+  font-family: cassette;
+  font-size: 20px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color:#e4405f;
+  }
+  
+  #exp_block:before {
+  font-family: Georgia, serif;
+  display: block;
+  content: "\201C";
+  font-size: 40px;
+  position: absolute;
+  left: 120px;
+  top: -15px;
+  }
+
+  
+  #exp_block cite {
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+  color:#e4405f;
+  }
+
+  #exp_block cite:before {
+    content: "\2014 \2009";
+    }
+
+
+
+.experience-main {
+  width: 100vw;
+}
+
+.basic-experience {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.experience-heading-div {
+  display: flex;
+}
+
+.experience-heading-div > * {
+  flex: 1;
+}
+
+.experience-heading-img-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-heading-text-div {
+  text-align: center;
+}
+
+.experience-heading-img-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "cassette";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+.experience-heading-sub-text {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "cassette";
+}
+
+.heading-sub-text {
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #868e96;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {  
+    
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+
+  #exp_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #exp_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: -15px;
+    }
+  
+    
+    #exp_block cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #exp_block cite:before {
+      content: "\2014 \2009";
+      }
+
+  
+}
+
+@media (max-width: 768px) {
+  #exp_block {
+    font-family: cassette;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #exp_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    }
+  
+    
+    #exp_block cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #exp_block cite:before {
+      content: "\2014 \2009";
+      }
+
+  
+  .experience-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .experience-heading-div {
+    flex-direction: column;
+  }
+
+  .textcs{
+
+    position: relative;
+    text-align:center;
+   text-justify: inter-word;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-family: Consolas,'Courier New',Monaco,Courier,monospace;
+    line-height: 18px;
+    overflow: scroll;
+  }
+  
+
+  #heading{
+    font-family: cassette;
+  }
+  
+
+}
+
+
+.circular--portrait {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+
+.carousel-root {
+    outline: none;
+    padding-bottom: 50px;
+
+}
+
+.carousel .slide {
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    /* background: #000000;
+    color: coral; */
+}
+#heading{
+  font-family: cassette;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-root {
+      outline: none;
+      height: 300px;
+      width: 320px;
+      margin-bottom: 420px;
+  }
+
+  .textcs{
+    position: relative;
+    text-align:left;
+    margin: 1.5em 10px;
+    color: #0c0c0c;
+
+    padding: 0.5em 10px;
+    height: 300px;
+    width:300px;
+    /* font-family: Consolas,'Courier New',Monaco,Courier,monospace; */
+    line-height: 18px;
+    overflow: scroll;
+  }
+
+  #heading{
+    font-family: cassette;
+  }
+
+
+  
+
+  
+}
+
+
+
+
+.textcs{
+
+  position: relative;
+  text-align:center;
+ text-justify: inter-word;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+
+  font-family: cassette;
+  line-height: 18px;
+  overflow: scroll;
+}
+
+
+

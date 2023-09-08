@@ -1,0 +1,38 @@
+
+@font-face{
+    font-family: "cassette";
+    font-size: 40px;
+    src: url("../../components/header/Chasing.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "BeautyDemo";
+    font-size: 40px;
+    src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+  }
+
+.educations-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "cassette";
+  text-align: center;
+}
+
+
+
+
+@media (max-width:1380px){
+    .educations-header{
+        font-size: 35px;
+        font-family: "cassette";
+
+    }
+}
+
+@media (max-width:768px){
+    .educations-header{
+        font-size: 30px;
+        font-family: "cassette";
+
+    }
+}

@@ -1,0 +1,208 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
+
+#edu_block {
+  font-family: cassette;
+  font-size: 20px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color:#e4405f;
+
+  }
+  
+  #edu_block:before {
+  font-family: Georgia, serif;
+  display: block;
+  content: "\201C";
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  }
+
+  
+  #edu_block cite {
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+  color:#e4405f;
+
+  }
+
+  #edu_block cite:before {
+    content: "\2014 \2009";
+    }
+
+
+.education-main {
+  width: 100vw;
+}
+
+.basic-education {
+  margin-left: 5%;
+  margin-right: 5%;
+
+  
+}
+
+.heading-div {
+  display: flex;
+}
+
+.heading-div > * {
+  flex: 1;
+}
+
+
+.heading-img-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-text-div {
+  text-align: center;
+}
+
+.heading-img-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "cassette";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading-sub-text {
+line-height: 30px;
+margin-top:0px;
+margin-left: 20px;
+margin-right: 20px;
+color: #868e96;
+}
+
+@media (max-width: 1380px) {
+  .heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: "cassette";
+
+  }
+  .heading-sub-text {
+    font-size: 25px;
+  }
+  
+  #edu_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #edu_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 30px;
+    position: absolute;
+    left: 35px;
+    top: -15px;
+    }
+  
+    
+    #edu_block cite {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #edu_block cite:before {
+      content: "\2014 \2009";
+      }
+  
+  
+
+}
+
+@media (max-width: 768px) {
+  .heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "cassette";
+
+  }
+
+  .heading-sub-text {
+    font-size: 20px;
+  }
+
+  .heading-div {
+    flex-direction: column;
+  }
+
+  #edu_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #edu_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: -15px;
+    }
+  
+    
+    #edu_block cite {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #edu_block cite:before {
+      content: "\2014 \2009";
+      }
+  
+
+
+  
+
+}
+
+
+

@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rushabh31",
+      "name": "Rushabh Patel",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23307811?v=4",
+      "profile": "http://rushabh31.github.io",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 1,
+  "projectName": "portfolio",
+  "projectOwner": "rushabh31",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

@@ -1,0 +1,185 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+.skills-main-div {
+  display: flex;
+}
+
+#feature {
+  background-image: url("../../assests/images/hexwall-min.png");
+  background-position: 50% 94px;
+  width: 120%;
+  margin-left: -110px;
+  display: block;
+  position: relative;
+  overflow: visible;
+  /* background-attachment: scroll; */
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+  height:400px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #feature {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+
+
+
+.skills-header {
+  font-size: 50px;
+  line-height: 1.1;
+  font-family: "cassette";
+  text-align: center;
+  margin-left: 50px;
+}
+
+.skills-text {
+  font-size: 25px;
+  text-align: center;
+  margin-left:10%;
+  width:80%;
+  font-family: "cassette";
+
+
+}
+
+.skills-text-div {
+  margin-left: 50px;
+  font-family: "cassette";
+}
+
+
+.skills-main-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.skills-image-div > img {
+  max-width: 40%;
+  height: auto;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.skills-heading {
+  font-size: 40px;
+  align-items: center;
+  font-weight: 400;
+  font-family: "cassette";
+  color:#e4405f;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+  }
+  .skills-header {
+    font-size: 50px;
+    align-items: center;
+    margin-left: 70px;
+
+  }
+  .skills-text {
+    font-size: 20px;
+    text-align: center;
+    margin-left:0%;
+    width:100%;
+  
+  }
+  .skills-image-div > img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #feature {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .skills-header {
+    font-size: 30px;
+    margin-left: 15px;
+
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: column;
+  }
+  .skills-text-div {
+    margin-left: 0px;
+    margin: 20px;
+  }
+  .skills-text {
+    font-size: 16px;
+    text-align: center;
+    margin-left:0%;
+    width:100%;
+
+  }
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .skills-image-div > img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    
+  }
+  .skills-image-div > img {
+    margin-top: 0px;
+  }
+
+  #feature {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+
+  
+}

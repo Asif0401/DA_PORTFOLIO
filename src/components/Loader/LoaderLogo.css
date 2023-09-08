@@ -1,0 +1,14 @@
+.raw_logo {
+  height: 305;
+  width: 440;
+}
+
+#video-splash{
+
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  
+  }
